@@ -1,0 +1,6 @@
+use_frameworks!
+target 'MARoundButton_Tests' do
+  pod 'MARoundButton', :path => '../'
+  
+  
+end
