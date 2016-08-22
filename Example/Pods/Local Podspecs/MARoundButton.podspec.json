@@ -1,0 +1,22 @@
+{
+  "name": "MARoundButton",
+  "version": "0.1.0",
+  "summary": "A short description of MARoundButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/MARoundButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Tyler Miller": "tyemiller4@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/MARoundButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MARoundButton/Classes/**/*"
+}

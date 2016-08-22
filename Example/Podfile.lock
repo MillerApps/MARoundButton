@@ -1,0 +1,16 @@
+PODS:
+  - MARoundButton (0.1.0)
+
+DEPENDENCIES:
+  - MARoundButton (from `../`)
+
+EXTERNAL SOURCES:
+  MARoundButton:
+    :path: ../
+
+SPEC CHECKSUMS:
+  MARoundButton: 13ee4a399df3931a420d2c887573e99524ba2a87
+
+PODFILE CHECKSUM: 76a47440603745a4da49a5d9cd63d54767a6f961
+
+COCOAPODS: 1.0.1
