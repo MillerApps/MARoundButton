@@ -22,7 +22,7 @@ pod "MARoundButton"
 
 ## Author
 
-Tyler Miller, tyemiller4@gmail.com
+Tyler Miller
 
 ## License
 
