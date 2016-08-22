@@ -28,10 +28,10 @@ import UIKit
 
 @IBDesignable public class MARoundButton: UIButton {
     
-    @IBInspectable var corner: CGFloat = 0
-    @IBInspectable var border: CGFloat = 0
-    @IBInspectable var borderColor: UIColor?
-    @IBInspectable var borderAlpha: CGFloat = 1.0
+    @IBInspectable public var corner: CGFloat = 0
+    @IBInspectable public var border: CGFloat = 0
+    @IBInspectable public var borderColor: UIColor?
+    @IBInspectable public var borderAlpha: CGFloat = 1.0
     
     override public func drawRect(rect: CGRect) {
         
