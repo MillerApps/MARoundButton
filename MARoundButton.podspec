@@ -22,7 +22,7 @@ s.summary          = 'A UIButton SubClass to make rounding easier.'
   s.homepage         = 'https://github.com/Miller47/MARoundButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Tyler Miller' => 'tyemiller4@gmail.com' }
+  s.author           =  'Tyler Miller'
   s.source           = { :git => 'https://github.com/Miller47/MARoundButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/MillerApps
 

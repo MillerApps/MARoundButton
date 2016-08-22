@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FD712B91D6B787D00706C83 /* MARoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD712B81D6B787D00706C83 /* MARoundButton.swift */; };
 		36B1348F356F1F61070ED2840139333A /* Pods-MARoundButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C39505B8E77BB69EDA65B1F2AB15905C /* Pods-MARoundButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40BAA9B190525F7B8007E119CE8A384C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		640E8CFAC0C521D5952A46746C3DDF85 /* MARoundButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C23203D47AAED9FA5956547A8BA04C87 /* MARoundButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		93F1F3701FFB6A76F8CD60BA577E0CEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		E75ED52BAE7FC654808CCEF01A54988C /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A72A32EA4EB9C471C404079D618BFEF0 /* ReplaceMe.swift */; };
 		EA808BFE51E821B8836F39078551548B /* MARoundButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92847C9AA7B332DDBC648AD7651B51E9 /* MARoundButton-dummy.m */; };
 		EF1D789B2EA9602F3CBD8B8C44549596 /* Pods-MARoundButton_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D21745354C48475A90A0678E43FA3BE2 /* Pods-MARoundButton_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -30,12 +30,12 @@
 		0366D37CA9D814F87198171EA88902D2 /* Pods-MARoundButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MARoundButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		20BCB6C27A42CAD18158EAF30D4E6C23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ECC674267A3B3CB6C772BFA3C8E822C /* MARoundButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MARoundButton.modulemap; sourceTree = "<group>"; };
+		2FD712B81D6B787D00706C83 /* MARoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MARoundButton.swift; sourceTree = "<group>"; };
 		6704EA8FB93FC6822388DB10D7F3FA63 /* MARoundButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MARoundButton.xcconfig; sourceTree = "<group>"; };
 		739D6767C47DFD305AD4BA921101E4FD /* MARoundButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MARoundButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0F682133F53A4A3FB258D2D2C72261 /* Pods-MARoundButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MARoundButton_Tests-resources.sh"; sourceTree = "<group>"; };
 		92847C9AA7B332DDBC648AD7651B51E9 /* MARoundButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MARoundButton-dummy.m"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A72A32EA4EB9C471C404079D618BFEF0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		AB506A403349EA1BC63AC56FC7F946D6 /* Pods-MARoundButton_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-MARoundButton_Tests.modulemap"; sourceTree = "<group>"; };
 		B83A1C44E65D14818F8614E58448B5F6 /* MARoundButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MARoundButton-prefix.pch"; sourceTree = "<group>"; };
 		BDA544479947DB188E7957E747F653BF /* Pods-MARoundButton_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MARoundButton_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		D86FAB15A8C987154E23627F94F4B844 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				A72A32EA4EB9C471C404079D618BFEF0 /* ReplaceMe.swift */,
+				2FD712B81D6B787D00706C83 /* MARoundButton.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -269,8 +269,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FD712B91D6B787D00706C83 /* MARoundButton.swift in Sources */,
 				EA808BFE51E821B8836F39078551548B /* MARoundButton-dummy.m in Sources */,
-				E75ED52BAE7FC654808CCEF01A54988C /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +336,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6704EA8FB93FC6822388DB10D7F3FA63 /* MARoundButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -475,6 +476,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6704EA8FB93FC6822388DB10D7F3FA63 /* MARoundButton.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
