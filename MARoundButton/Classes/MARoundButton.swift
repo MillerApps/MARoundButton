@@ -26,7 +26,7 @@
 
 import UIKit
 
-@IBDesignable class MARoundButton: UIButton {
+@IBDesignable public class MARoundButton: UIButton {
     
     @IBInspectable var corner: CGFloat = 0
     @IBInspectable var border: CGFloat = 0

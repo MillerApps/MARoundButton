@@ -9,18 +9,18 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
-
 ## Installation
 
 MARoundButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "MARoundButton"
+pod 'MARoundButton'
 ```
 
 ## How To Use
+
+MARoundButton can be used through StoryBoards by declearing a button
 
 ## Author
 
