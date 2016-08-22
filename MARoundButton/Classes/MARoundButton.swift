@@ -33,7 +33,7 @@ import UIKit
     @IBInspectable var borderColor: UIColor?
     @IBInspectable var borderAlpha: CGFloat = 1.0
     
-    override func drawRect(rect: CGRect) {
+    override public func drawRect(rect: CGRect) {
         
         self.layer.cornerRadius = corner
         self.layer.borderWidth = border
