@@ -5,10 +5,6 @@
 [![License](https://img.shields.io/cocoapods/l/MARoundButton.svg?style=flat)](http://cocoapods.org/pods/MARoundButton)
 [![Platform](https://img.shields.io/cocoapods/p/MARoundButton.svg?style=flat)](http://cocoapods.org/pods/MARoundButton)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
 ## Installation
 
 MARoundButton is available through [CocoaPods](http://cocoapods.org). To install
@@ -20,8 +16,19 @@ pod 'MARoundButton'
 
 ## How To Use
 
-MARoundButton can be used through StoryBoards by declearing a button
+MARoundButton can be used through StoryBoards by adding a UIButton to the View and under the identity inspector select MARoundButton as the class. All the properties can be changed within the attributes inspector tab. 
 
+MARoundButton can also be used through code just like a normal UIButton. Just remmber to set the Round button properties. 
+
+#### StoryBoard Example
+
+![StoryBoard](http://g.recordit.co/wiUK3mqQ1Z.gif)
+
+## TODO
+* Finish documentation
+* Add An demo project
+* Add code demo for Swift and Objective-C
+	 
 ## Author
 
 Tyler Miller
