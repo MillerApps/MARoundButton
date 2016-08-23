@@ -26,7 +26,7 @@ MARoundButton can also be used through code just like a normal UIButton. Just re
 
 ## TODO
 * Finish documentation
-* Add An demo project
+* Add a demo project
 * Add code demo for Swift and Objective-C
 	 
 ## Author
