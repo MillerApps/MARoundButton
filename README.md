@@ -16,7 +16,7 @@ pod 'MARoundButton'
 
 ## How To Use
 
-MARoundButton can be used through StoryBoards by adding a UIButton to the View and under the identity inspector select MARoundButton as the class. All the properties can be changed within the attributes inspector tab. 
+MARoundButton can be used through StoryBoards by adding a UIButton to the View and under the identity inspector select MARoundButton as the class and the module. All the properties can be changed within the attributes inspector tab. 
 
 MARoundButton can also be used through code just like a normal UIButton. Just remmber to set the Round button properties. 
 
