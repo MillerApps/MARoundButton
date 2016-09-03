@@ -19,11 +19,11 @@ s.summary          = 'A UIButton SubClass to make rounding easier.'
 
   s.description      = 'A UIButton SubClass utilizing IBDesignable and IBInspectable, to make rounding easier. Written in Swift 2.2.'
 
-  s.homepage         = 'https://github.com/Miller47/MARoundButton'
+  s.homepage         = 'https://github.com/MillerApps/MARoundButton'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           =  'Tyler Miller'
-  s.source           = { :git => 'https://github.com/Miller47/MARoundButton.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/MillerApps/MARoundButton.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/MillerApps
 
   s.ios.deployment_target = '8.0'
