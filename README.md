@@ -1,6 +1,6 @@
 # MARoundButton
 
-[![CI Status](http://img.shields.io/travis/Miller47/MARoundButton.svg?style=flat)](https://travis-ci.org/Miller47/MARoundButton)
+[![CI Status](http://img.shields.io/travis/MillerApps/MARoundButton.svg?style=flat)](https://travis-ci.org/Miller47/MARoundButton)
 [![Version](https://img.shields.io/cocoapods/v/MARoundButton.svg?style=flat)](http://cocoapods.org/pods/MARoundButton)
 [![License](https://img.shields.io/cocoapods/l/MARoundButton.svg?style=flat)](http://cocoapods.org/pods/MARoundButton)
 [![Platform](https://img.shields.io/cocoapods/p/MARoundButton.svg?style=flat)](http://cocoapods.org/pods/MARoundButton)
@@ -18,7 +18,7 @@ pod 'MARoundButton'
 
 MARoundButton can be used through StoryBoards by adding a UIButton to the View and under the identity inspector select MARoundButton as the class and the module. All the properties can be changed within the attributes inspector tab. 
 
-MARoundButton can also be used through code just like a normal UIButton. Just remmber to set the Round button properties. 
+MARoundButton can also be used through code just like a normal UIButton. Just remember to set the Round button properties. 
 
 #### StoryBoard Example
 
