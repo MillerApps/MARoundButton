@@ -11,7 +11,9 @@ MARoundButton is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MARoundButton'
+pod 'MARoundButton',
+	:git => 'https://github.com/MillerApps/MARoundButton.git',
+	:branch => 'swift3'
 ```
 
 ## How To Use

@@ -26,14 +26,14 @@
 
 import UIKit
 
-@IBDesignable public class MARoundButton: UIButton {
+@IBDesignable open class MARoundButton: UIButton {
     
-    @IBInspectable public var corner: CGFloat = 0
-    @IBInspectable public var border: CGFloat = 0
-    @IBInspectable public var borderColor: UIColor?
-    @IBInspectable public var borderAlpha: CGFloat = 1.0
+    @IBInspectable open var corner: CGFloat = 0
+    @IBInspectable open var border: CGFloat = 0
+    @IBInspectable open var borderColor: UIColor?
+    @IBInspectable open var borderAlpha: CGFloat = 1.0
     
-    override public func drawRect(rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         
         self.layer.cornerRadius = corner
         self.layer.borderWidth = border
@@ -44,7 +44,7 @@ import UIKit
             self.layer.borderWidth = 0
             return
         }
-        self.layer.borderColor = color.colorWithAlphaComponent(borderAlpha).CGColor
+        self.layer.borderColor = color.withAlphaComponent(borderAlpha).cgColor
             
         
     }
