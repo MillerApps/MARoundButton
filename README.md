@@ -1,6 +1,6 @@
 # MARoundButton
 
-[![CI Status](http://img.shields.io/travis/MillerApps/MARoundButton.svg?style=flat)](https://travis-ci.org/Miller47/MARoundButton)
+[![CI Status](https://travis-ci.org/MillerApps/MARoundButton.svg?branch=swift3)](https://travis-ci.org/MillerApps/MARoundButton)
 [![Version](https://img.shields.io/cocoapods/v/MARoundButton.svg?style=flat)](http://cocoapods.org/pods/MARoundButton)
 [![License](https://img.shields.io/cocoapods/l/MARoundButton.svg?style=flat)](http://cocoapods.org/pods/MARoundButton)
 [![Platform](https://img.shields.io/cocoapods/p/MARoundButton.svg?style=flat)](http://cocoapods.org/pods/MARoundButton)
