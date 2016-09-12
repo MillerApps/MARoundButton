@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'MARoundButton'
   s.version          = '0.1.5'
-s.summary          = 'A UIButton SubClass to make rounding easier.'
+  s.summary          = 'A UIButton SubClass to make rounding easier.'
 
 
   s.description      = 'A UIButton SubClass utilizing IBDesignable and IBInspectable, to make rounding easier. Written in Swift 3.'
