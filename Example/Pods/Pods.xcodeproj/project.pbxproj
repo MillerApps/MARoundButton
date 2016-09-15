@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2FD712B91D6B787D00706C83 /* MARoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD712B81D6B787D00706C83 /* MARoundButton.swift */; };
+		2FA14E011D8A6859005C7D66 /* MARoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA14E001D8A6859005C7D66 /* MARoundButton.swift */; };
 		36B1348F356F1F61070ED2840139333A /* Pods-MARoundButton_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C39505B8E77BB69EDA65B1F2AB15905C /* Pods-MARoundButton_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40BAA9B190525F7B8007E119CE8A384C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		640E8CFAC0C521D5952A46746C3DDF85 /* MARoundButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C23203D47AAED9FA5956547A8BA04C87 /* MARoundButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -30,7 +30,7 @@
 		0366D37CA9D814F87198171EA88902D2 /* Pods-MARoundButton_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MARoundButton_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		20BCB6C27A42CAD18158EAF30D4E6C23 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2ECC674267A3B3CB6C772BFA3C8E822C /* MARoundButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MARoundButton.modulemap; sourceTree = "<group>"; };
-		2FD712B81D6B787D00706C83 /* MARoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MARoundButton.swift; sourceTree = "<group>"; };
+		2FA14E001D8A6859005C7D66 /* MARoundButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MARoundButton.swift; path = Sources/MARoundButton.swift; sourceTree = "<group>"; };
 		6704EA8FB93FC6822388DB10D7F3FA63 /* MARoundButton.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MARoundButton.xcconfig; sourceTree = "<group>"; };
 		739D6767C47DFD305AD4BA921101E4FD /* MARoundButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MARoundButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A0F682133F53A4A3FB258D2D2C72261 /* Pods-MARoundButton_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MARoundButton_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -73,19 +73,19 @@
 		21336828E6E4D34B03912B89055DB5C5 /* MARoundButton */ = {
 			isa = PBXGroup;
 			children = (
-				37857885F605EDA24B8E9CC4F1201AE7 /* MARoundButton */,
+				2FA14DFE1D8A6201005C7D66 /* Sources */,
 				FDBCAC84BE0B346E930587607A8E8893 /* Support Files */,
 			);
 			name = MARoundButton;
 			path = ../..;
 			sourceTree = "<group>";
 		};
-		37857885F605EDA24B8E9CC4F1201AE7 /* MARoundButton */ = {
+		2FA14DFE1D8A6201005C7D66 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				D86FAB15A8C987154E23627F94F4B844 /* Classes */,
+				2FA14E001D8A6859005C7D66 /* MARoundButton.swift */,
 			);
-			path = MARoundButton;
+			name = Sources;
 			sourceTree = "<group>";
 		};
 		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
@@ -148,14 +148,6 @@
 				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D86FAB15A8C987154E23627F94F4B844 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				2FD712B81D6B787D00706C83 /* MARoundButton.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		D91CA2AFAFF657A5172DD26C612C7B76 /* Targets Support Files */ = {
@@ -277,7 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2FD712B91D6B787D00706C83 /* MARoundButton.swift in Sources */,
+				2FA14E011D8A6859005C7D66 /* MARoundButton.swift in Sources */,
 				EA808BFE51E821B8836F39078551548B /* MARoundButton-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

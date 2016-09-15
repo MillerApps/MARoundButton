@@ -13,6 +13,6 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'MARoundButton/Classes/**/*'
+  s.source_files = 'Source/*.swift'
 
 end
