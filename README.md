@@ -34,19 +34,19 @@ import MARoundButton
 Next setup a button similar to the following:
 
 ```swift
-  		let btn = MARoundButton(frame: CGRect(x: 20, y: 40, width: 50, height: 50))
-   		btn.backgroundColor = UIColor.brown
-        btn.setTitle("BTN", for: .normal)
-        btn.tintColor = UIColor.white
+let btn = MARoundButton(frame: CGRect(x: 20, y: 40, width: 50, height: 50))
+btn.backgroundColor = UIColor.brown
+btn.setTitle("BTN", for: .normal)
+btn.tintColor = UIColor.white
         
-        // MARoundButton
-        btn.borderColor = UIColor.black
-        btn.border = 2
-        btn.corner = 23
-        btn.borderAlpha = 0.5
+// MARoundButton
+btn.borderColor = UIColor.black
+btn.border = 2
+btn.corner = 23
+btn.borderAlpha = 0.5
         
-        self.view.addSubview(btn)
-  ```
+self.view.addSubview(btn)
+```
 
 ## TODO
 * Finish documentation
