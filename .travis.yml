@@ -4,11 +4,9 @@
 
 osx_image: xcode8
 language: objective-c
-# cache: cocoapods
-# podfile: Example/Podfile
+
 before_install:
  - gem install cocoapods --pre --no-rdoc --no-ri --no-document --quiet
-# - pod install --project-directory=Example
 script:
-- set -o pipefail && xcodebuild test -workspace Example/MARoundButton.xcworkspace -scheme MARoundButton-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+#- set -o pipefail && xcodebuild test -workspace Example/MARoundButton.xcworkspace -scheme MARoundButton-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
